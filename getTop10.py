@@ -10,7 +10,7 @@ def get_top10():
     for i in range(10):
         top10.append(organizations[i])
 
-    with open("csv_files/MoreThan10.csv", "w") as f:
+    with open("csv_files/Top10.csv", "w") as f:
             writer = csv.writer(f)
             writer.writerows(top10)
 

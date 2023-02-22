@@ -31,25 +31,22 @@ def filter():
             topics_of_org = driver.find_element(By.CLASS_NAME, 'topics__content').text.split(", ")
 
             matches_technologies = []
-            for technology in technologies_of_org:
-                if technology in my_technologies:
+            for technology in my_technologies:
+                if technology in technologies_of_org:
                     matches_technologies.append(technology)
-                    score += 10 
-                else: 
-                    score -= 5
-
+            
+            score_tech = len(matches_technologies * 100) / len(technologies_of_org)
             organization.append(", ".join(matches_technologies))
             
             matches_topics = []
-            for topic in topics_of_org:
-                if topic in my_topics:
+            for topic in my_topics:
+                if topic in topics_of_org:
                     matches_topics.append(topic)
-                    score += 10 
-                else: 
-                    score -= 5
 
+            score_topic = len(matches_topics * 100) / len(topics_of_org)
             organization.append(", ".join(matches_topics))
 
+            score = (score_tech + score_topic) / 2
             organization.append(score)
             
             if (matches_technologies != [] and matches_topics != []):
@@ -82,7 +79,7 @@ def filter():
         writer.writerow(["Org No", "Name", "Desc", "Url", "Technologies", "Topics", "Score", "Org link", "Guidance link"])
 
         for organization in filtred_organizations:
-            writer.writerow(organization)
+                writer.writerow(organization)
 
 if __name__ == "__main__":
     filter()
