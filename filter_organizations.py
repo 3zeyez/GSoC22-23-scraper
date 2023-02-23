@@ -68,7 +68,7 @@ def filter():
                 filtred_organizations.append(organization)
 
                 def sort_with_number(data):
-                    return type(data[6]) == int
+                    return type(data[6]) == int or type(data[6]) == float
 
                 filtred_organizations.sort(key=sort_with_number)
 
