@@ -27,6 +27,7 @@ header = ["Org No",
         "Technologies", 
         "Topics", 
         "My Score", 
-        "Org Score", 
+        "Org Score",
+        "Score",
         "Org link", 
         "Guidance link"]
