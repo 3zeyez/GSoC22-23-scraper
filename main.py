@@ -1,6 +1,6 @@
-from scrape_organizations import scrape
-from filter_organizations import filter
-from getTop10 import get_top10
+from modules.scrape_organizations import scrape
+from modules.filter_organizations import filter
+from modules.getTop10 import get_top10
 
 
 def get_url():
