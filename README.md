@@ -5,7 +5,7 @@ GSoC22-23-scraper is a repository that contains code to help users filter the or
 ## Requirements
 <li>Python 3.6 or higher</li>
 <li>Selenium</li>
-<li>Google Chrome browser<li>
+<li>Google Chrome browser</li>
 ## Installation
 Clone this repository: git clone https://github.com/your-username/GSoC22-23-scraper.git
 Install the required packages using pip: pip install -r requirements.txt
