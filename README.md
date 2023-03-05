@@ -7,8 +7,8 @@ GSoC22-23-scraper is a repository that contains code to help users filter the or
  - Selenium
  - Google Chrome browser
 ## Installation
-Clone this repository: git clone https://github.com/your-username/GSoC22-23-scraper.git
-Install the required packages using pip: pip install -r requirements.txt
+ - Clone this repository: git clone https://github.com/your-username/GSoC22-23-scraper.git
+ - Install the required packages using pip: pip install -r requirements.txt
 ## Usage
 Run the gsoc_scraper.py script using the following command: python gsoc_scraper.py
 Enter your search criteria when prompted by the script.
