@@ -3,9 +3,9 @@
 GSoC22-23-scraper is a repository that contains code to help users filter the organizations participating in GSoC more easily and rapidly. This code is designed to save users time and effort by streamlining the process of finding and filtering organizations of interest using the Selenium web automation framework.
 
 ## Requirements
-Python 3.6 or higher
-Selenium
-Google Chrome browser
+<li>Python 3.6 or higher</li>
+<li>Selenium</li>
+<li>Google Chrome browser<li>
 ## Installation
 Clone this repository: git clone https://github.com/your-username/GSoC22-23-scraper.git
 Install the required packages using pip: pip install -r requirements.txt
