@@ -10,11 +10,11 @@ GSoC22-23-scraper is a repository that contains code to help users filter the or
  - Clone this repository: git clone https://github.com/your-username/GSoC22-23-scraper.git
  - Install the required packages using pip: pip install -r requirements.txt
 ## Usage
-Run the gsoc_scraper.py script using the following command: python gsoc_scraper.py
-Enter your search criteria when prompted by the script.
-The script will automatically download the latest version of Chromedriver and start a Google Chrome browser window in the background.
-The script will navigate to the GSoC website, and automatically filter the organizations based on your search criteria.
-The script will save a list of GSoC organizations that match your search criteria in a CSV file named gsoc_organizations.csv.
+ 1. Run the gsoc_scraper.py script using the following command: python gsoc_scraper.py
+ 2. Enter your search criteria when prompted by the script.
+ 3. The script will automatically download the latest version of Chromedriver and start a Google Chrome browser window in the background.
+ 4. The script will navigate to the GSoC website, and automatically filter the organizations based on your search criteria.
+ 5. The script will save a list of GSoC organizations that match your search criteria in a CSV file named gsoc_organizations.csv.
 ## Contributing
 Contributions to this repository are welcome. If you'd like to contribute, please create a new branch and submit a pull request.
 
